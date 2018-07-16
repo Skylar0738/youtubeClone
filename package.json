@@ -1,12 +1,13 @@
 {
-  "name": "redux-simple-starter",
+  "name": "youtubeClone",
   "version": "1.0.0",
   "description": "Simple starter package for Redux with React and Babel support",
   "main": "index.js",
   "scripts": {
     "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
     "test": "mocha --compilers js:babel-core/register --require ./test/test_helper.js --recursive ./test",
-    "test:watch": "npm run test -- --watch"
+    "test:watch": "npm run test -- --watch",
+    "npm": "5.7.1"
   },
   "author": "",
   "license": "ISC",
