@@ -13,7 +13,7 @@ import React, { Component} from 'react';
 //state need to be intialized. only class based compnents have state. 
 
 
-class SearchBar extends Component{
+export default class SearchBar extends Component{
 	constructor(props) { 
 		super(props);
 		this.state = { term:''};
@@ -46,5 +46,3 @@ class SearchBar extends Component{
 	  	this.props.onSearchTermChange(term);
 	  }
 }
-
-export default SearchBar;
